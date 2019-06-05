@@ -1,7 +1,7 @@
 {
   "name": "fast-gbk",
-  "version": "0.0.0",
-  "description": "encode and decode gbk string as fast as possible",
+  "version": "0.0.1",
+  "description": "encode and decode utf8 to gbk string as fast as possible",
   "main": "index.js",
   "directories": {
     "example": "example",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/song940/fast-gbk#readme",
   "keywords": [
-    "gbk"
+    "gbk",
+    "encode",
+    "decode",
+    "encoding"
   ]
 }

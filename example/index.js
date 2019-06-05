@@ -1,4 +1,4 @@
-const { encode, decode } = require('..')();
+const { encode, decode } = require('..');
 
 const str = '你好，世界！';
 

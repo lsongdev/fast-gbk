@@ -1,6 +1,9 @@
-## fast-gbk [![fast-gbk](https://img.shields.io/npm/v/fast-gbk.svg)](https://npmjs.org/fast-gbk)
+## fast-gbk 
 
-> encode and decode gbk string as fast as possible
+> encode and decode utf8 to gbk string as fast as possible
+
+[![fast-gbk](https://img.shields.io/npm/v/fast-gbk.svg)](https://npmjs.org/fast-gbk)
+[![Build Status](https://travis-ci.org/song940/fast-gbk.svg?branch=master)](https://travis-ci.org/song940/fast-gbk)
 
 ### Installation
 
@@ -11,9 +14,13 @@ $ npm install fast-gbk
 ### Example
 
 ```js
-const fastGbk = require('fast-gbk');
+const { encode, decode } = require('fast-gbk');
 
-// your code here
+const str = '你好，世界！';
+
+const arr = encode(str);
+
+console.log(decode(arr));
 
 ```
 
