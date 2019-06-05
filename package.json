@@ -1,0 +1,26 @@
+{
+  "name": "fast-gbk",
+  "version": "0.0.0",
+  "description": "encode and decode gbk string as fast as possible",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Lsong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/fast-gbk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/fast-gbk/issues"
+  },
+  "homepage": "https://github.com/song940/fast-gbk#readme",
+  "keywords": [
+    "gbk"
+  ]
+}
